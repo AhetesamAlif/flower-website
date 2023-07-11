@@ -93,7 +93,7 @@ nav a {
 
 .flower-option {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 .flower-border {
@@ -151,7 +151,7 @@ nav a {
 
 .services {
     display: flex;
-    margin: 0 150px;
+    margin: 130px 150px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     justify-content: space-around;
@@ -165,4 +165,91 @@ nav a {
 
 .service-img {
     width: 70px;
+}
+
+/* deal style */
+
+.deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding: 100px 200px;
+    align-items: center;
+    gap: 185px;
+}
+
+.deal-content {
+    text-align: center;
+    max-width: 580 px;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* social style */
+
+.social-head {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.instagram {
+    text-align: center;
+}
+
+.social-img {
+    width: 340px;
+}
+
+/* subscribe style */
+
+.subscribe {
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1400px;
+    text-align: center;
+    margin: 120px 120px;
+    height: 500px;
+    padding: 120px 0px;
+}
+
+.enter-mail {
+    padding: 23px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+}
+
+.subs-head {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+.subs-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
