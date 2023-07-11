@@ -1,6 +1,8 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .btn-primary {
@@ -18,7 +20,8 @@ body {
 
 .header {
     background: rgba(229, 84, 115, 0.10);
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    padding: 0 150px;
 }
 
 .text-primary-color {
@@ -29,7 +32,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 150px;
 }
 
 .nav-title {
@@ -54,10 +56,17 @@ nav a {
     color: #474747;
 }
 
+.items:hover {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
 .banner {
     padding: 30px 150px 0px 150px;
     display: flex;
     gap: 97px;
+    height: 90vh;
+    /* border: 2px solid red; */
 }
 
 .profile-pic {
@@ -100,12 +109,13 @@ nav a {
     background-color: rgba(167, 33, 98, 0.15);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
-    width: 350px;
+    width: 280px;
+    height: 300px;
 }
 
 .features-img {
     width: 200px;
-    margin: 0px 0px -5px 67px;
+    margin: 0px 0px -282px 67px;
 }
 
 .featured-title {
@@ -211,10 +221,17 @@ nav a {
 
 .instagram {
     text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 .social-img {
-    width: 340px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.margin-zero {
+    margin-right: 0px;
 }
 
 /* subscribe style */
@@ -222,11 +239,14 @@ nav a {
 .subscribe {
     background-image: url('Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    width: 1400px;
+    width: 80vw;
     text-align: center;
-    margin: 120px 120px;
-    height: 500px;
-    padding: 120px 0px;
+    margin: 120px 150px;
+    padding: 200px 0px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    /* border: 1px solid black; */
 }
 
 .enter-mail {
@@ -252,4 +272,32 @@ nav a {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 40px;
+}
+
+/* footer design */
+.my-footer {
+    background-color: #111010;
+    text-align: center;
+    width: 100%;
+    padding: 120px 0px;
+    margin: 0px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
